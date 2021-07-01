@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
-import time
 
 dv = webdriver.Chrome(r'C:\Users\co0ki3\Desktop\Python\Types\Selenium\chromedriver_win32\chromedriver.exe')
 dv.get("https://www.google.com")
