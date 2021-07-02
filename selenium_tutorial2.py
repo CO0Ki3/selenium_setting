@@ -16,11 +16,3 @@ webtoon_name = date_webtoon_address.select('.title')
 
 for i in webtoon_name:
   print(i.text.strip())
-# for i in date_webtoon_address:
-#   print(i.text.strip())
-# # address = date_webtoon_address.page_source
-# # soup = bs.find()
-# # webtoon_name = soup.select('.title')
-
-# # for i in webtoon_name:
-# #   print(i.text.strip())
