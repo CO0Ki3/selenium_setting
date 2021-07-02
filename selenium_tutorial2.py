@@ -11,7 +11,7 @@ date_list = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
 input_date = int(input("input : "))
 html = dv.page_source
 soup = BeautifulSoup(html, 'html.parser')
-date_webtoon_address = soup.find('h4', class_ = date_list[input_date]).parent
+date_webtoon_address = soup.find('h4', class_ = date_list[input_date-1]).parent
 webtoon_name = date_webtoon_address.select('.title')
 
 for i in webtoon_name:
